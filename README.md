@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Md. Nafis Hasan Tonmoy</h1>
 <h3 align="center">A passionate Flutter developer from Bangladesh</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Frudrabarad%2FGifs&psig=AOvVaw0xageHhatRTqGFR-1o9225&ust=1706431604553000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDM256X_YMDFQAAAAAdAAAAABAE)" alt="nafis71" /> </p>
+<p align="left"> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Frudrabarad%2FGifs&psig=AOvVaw0xageHhatRTqGFR-1o9225&ust=1706431604553000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDM256X_YMDFQAAAAAdAAAAABAE" alt="nafis71" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
 
