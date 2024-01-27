@@ -1,6 +1,6 @@
 ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
 <h1 align="center">Hi 👋, I'm Md. Nafis Hasan Tonmoy</h1>
-<h3 align="justify" textSize="small">  A passionate software developer with a flair for crafting seamless and delightful user experiences. 🚀
+<h3 align="justify" font-size="small">  A passionate software developer with a flair for crafting seamless and delightful user experiences. 🚀
 
 📱 As an Android native app developer and a Flutter enthusiast, I thrive on turning innovative ideas into robust and visually appealing mobile applications. My journey in the world of code began with a love for problem-solving, and it has evolved into a mission to create software that not only meets but exceeds user expectations.
 
