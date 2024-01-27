@@ -1,6 +1,12 @@
 ![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
 <h1 align="center">Hi 👋, I'm Md. Nafis Hasan Tonmoy</h1>
-<h3 align="center">A passionate Flutter developer from Bangladesh</h3>
+<h3 align="center">A passionate software developer with a flair for crafting seamless and delightful user experiences. 🚀
+
+📱 As an Android native app developer and a Flutter enthusiast, I thrive on turning innovative ideas into robust and visually appealing mobile applications. My journey in the world of code began with a love for problem-solving, and it has evolved into a mission to create software that not only meets but exceeds user expectations.
+
+🔧 Armed with expertise in Android native app development and proficiency in the Flutter framework, I bring a versatile skill set to the table. Whether it's building native Android applications that leverage the power of the platform or creating cross-platform apps with Flutter for a broader reach, I'm all in!
+
+💡 Innovation is at the core of my development philosophy. I'm constantly exploring new technologies, design patterns, and best practices to stay ahead of the curve. My goal is to not just write code, but to architect solutions that stand the test of time and deliver exceptional value.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat" alt="nafis71" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
 <img align="right" alt ="coding" width ="400" src="https://camo.githubusercontent.com/01c83210f7feb975ea3b9a852808beb6689425add471f76f942c15875626af5d/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"></img>
