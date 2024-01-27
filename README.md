@@ -11,7 +11,7 @@
 
 - 💬 Ask me about **Flutter, Java, Python, Android native**
 
-- 📫 How to reach me **nhtonmoy2@gmail.com**
+- 📫 Contact me at this email- **nhtonmoy2@gmail.com**
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/nafis-hasan-tonmoy-86ba9a267" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nafis-hasan-tonmoy-86ba9a267" height="30" width="40" /></a>
