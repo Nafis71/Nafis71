@@ -1,4 +1,4 @@
-<img align="center" alt ="coding" width ="100%" src="https://i.ibb.co/XJK9pdf/myBanner.png"></img>
+<img align="center" alt ="coding" width ="500" src="https://i.ibb.co/XJK9pdf/myBanner.png"></img>
 <h1 align="center">Hi 👋, I'm Nafis Hasan Tonmoy</h1>
 <p align="justify">  A passionate software developer with a flair for crafting seamless and delightful user experiences. 🚀
 
