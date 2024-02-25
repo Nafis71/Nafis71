@@ -1,4 +1,4 @@
-<img align="center" alt ="coding" width ="500" src="https://i.postimg.cc/1z5JsrzC/myBanner.png"></img>
+<img align="center" alt ="coding" width ="100%" src="https://i.postimg.cc/1z5JsrzC/myBanner.png"></img>
 
 
 <h1 align="center">Hi 👋, I'm Nafis Hasan Tonmoy</h1>
