@@ -32,4 +32,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nafis71&show_icons=true&locale=en" alt="nafis71" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nafis71&" alt="nafis71" /></p>
+
+<br />
+
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Nafis71)](https://github.com/anuraghazra/github-readme-stats)
