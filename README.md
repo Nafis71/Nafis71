@@ -34,8 +34,3 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nafis71&" alt="nafis71" /></p>
 
 <br />
-
-
-[![wakatime](https://wakatime.com/badge/user/09cbff96-1d1a-4f50-a61c-b2948f79c549.svg)](https://wakatime.com/@09cbff96-1d1a-4f50-a61c-b2948f79c549)
-
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Nafis71)](https://github.com/anuraghazra/github-readme-stats)
