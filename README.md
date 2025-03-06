@@ -9,7 +9,7 @@
 🔧 Armed with expertise in Android native app development and proficiency in the Flutter framework, I bring a versatile skill set to the table. Whether it's building native Android applications that leverage the power of the platform or creating cross-platform apps with Flutter for a broader reach, I'm all in!</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat" alt="nafis71" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
-<img align="right" alt ="coding" width ="400" src="https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif"></img>
+<img align="right" alt ="coding" width ="300" src="https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif"></img>
 
 
 - 🌱 I’m currently learning **Flutter Framework**
