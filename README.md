@@ -4,19 +4,33 @@
 <h1 align="center">Hi 👋, I'm Nafis Hasan Tonmoy</h1>
 <p align="justify">  A passionate software developer with a flair for crafting seamless and delightful user experiences. 🚀
 
-📱 As an Android native app developer and a Flutter enthusiast, I thrive on turning innovative ideas into robust and visually appealing mobile applications. My journey in the world of code began with a love for problem-solving, and it has evolved into a mission to create software that not only meets but exceeds user expectations.
+# 👋 Hi, I'm Nafis Hasan Tonmoy
 
-🔧 Armed with expertise in Android native app development and proficiency in the Flutter framework, I bring a versatile skill set to the table. Whether it's building native Android applications that leverage the power of the platform or creating cross-platform apps with Flutter for a broader reach, I'm all in!</p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat" alt="nafis71" /> </p>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
-<img align="right" alt ="coding" width ="300" src="https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif"></img>
+I'm a passionate **Flutter developer** dedicated to building clean, scalable, and user-friendly mobile applications.
 
+## 🚀 What I Do
+- Develop robust Flutter apps using **feature-first and layer-first architecture**
+- Craft **responsive**, **pixel-perfect** UIs with **GetX and Bloc**
+- Integrate **REST APIs**, and follow clean coding practices
 
-- 🌱 I’m currently learning **Flutter Framework**
+## 💼 Current Role
+**Junior Flutter Developer** @ **Saratech** (Remote)
 
-- 💬 Ask me about **Flutter, Java, Python, Android native**
+## 🛠 Tech Stack
+- **Languages & Frameworks:** Dart, Flutter, Kotlin (Exploring)
+- **State Management:** GetX
+- **Database:** SQLite, Firebase
+- **Tools:** Git, GitHub, VS Code, Android Studio
+- **Practices:** OOP, Clean Architecture, Feature-First Structure, Layer-First Structure
 
-- 📫 Contact me at this email- **nhtonmoy2@gmail.com**
+## 🌱 Currently Learning
+- Performance optimization in Flutter
+- Native integrations and custom platform channels
+- Advanced architectural patterns
+
+## 🏋️ About Me
+When I’m not coding, I enjoy working out and building discipline through daily gym sessions. I’m deeply committed to both professional growth and personal improvement.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/nafis-hasan-tonmoy-86ba9a267" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nafis-hasan-tonmoy-86ba9a267" height="30" width="40" /></a>
