@@ -15,7 +15,7 @@ I'm a passionate **Flutter developer** dedicated to building clean, scalable, an
 **Junior Flutter Developer** @ **Saratech** (Remote)
 
 ## 🛠 Tech Stack
-- **Languages & Frameworks:** Dart, Flutter, Kotlin (Exploring)
+- **Languages & Frameworks:** Java, Dart, Flutter, Kotlin (Exploring)
 - **State Management:** GetX
 - **Database:** SQLite, Firebase
 - **Tools:** Git, GitHub, VS Code, Android Studio
