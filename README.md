@@ -3,8 +3,17 @@
 
 
 # 👋 Hi, I'm Nafis Hasan Tonmoy
+<img align="right" alt ="coding" width ="300" src="https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif"></img>
+<p align="justify">I’m a passionate **Flutter developer** dedicated to building clean, scalable, and user-friendly mobile applications that deliver real value to users. With a strong foundation in **Object-Oriented Programming (OOP)** and a keen eye for UI/UX, I enjoy turning complex ideas into elegant, performant apps using Flutter’s powerful capabilities.
 
-I'm a passionate **Flutter developer** dedicated to building clean, scalable, and user-friendly mobile applications.
+I specialize in writing **maintainable, modular code** following best practices like **feature-first architecture**, **clean code principles**, and **responsive UI design**. I'm well-versed in integrating **RESTful APIs**, handling **state management** with tools like **GetX**, and optimizing app performance for real-world use cases.
+
+My goal is to continuously grow as a developer by learning new technologies, contributing to impactful projects, and collaborating with teams to deliver high-quality mobile solutions. I take pride in being **detail-oriented**, **efficient**, and always eager to improve — whether it’s writing reusable components, solving performance bottlenecks, or simply enhancing user experience.
+
+I’ve worked on both **personal and client projects**, gaining hands-on experience in building apps from scratch, implementing **authentication**, **local storage**, **real-time updates**, and **deploying to production**. I thrive in environments that challenge me to think critically and innovate.</p>
+<br>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat" alt="nafis71" /> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
 
 ## 🚀 What I Do
 - Develop robust Flutter apps using **feature-first and layer-first architecture**
