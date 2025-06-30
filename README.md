@@ -24,6 +24,8 @@ I’ve worked on both <strong>personal and client projects</strong>, gaining han
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat" alt="nafis71" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
 
+[![wakatime](https://wakatime.com/badge/user/09cbff96-1d1a-4f50-a61c-b2948f79c549.svg)](https://wakatime.com/@09cbff96-1d1a-4f50-a61c-b2948f79c549)
+
 ## 🚀 What I Do
 - Develop robust Flutter apps using **feature-first and layer-first architecture**
 - Craft **responsive**, **pixel-perfect** UIs with **GetX and Bloc**
