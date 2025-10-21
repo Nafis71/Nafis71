@@ -32,7 +32,7 @@ I’ve worked on both <strong>personal and client projects</strong>, gaining han
 - Integrate **REST APIs**, and follow clean coding practices
 
 ## 💼 Current Role
-**Junior Flutter Developer** @ **Saratech** (Remote)
+**Flutter Developer** @ **Saratech** (Remote)
 
 ## 🛠 Tech Stack
 - **Languages & Frameworks:** Java, Dart, Flutter, Kotlin (Exploring)
