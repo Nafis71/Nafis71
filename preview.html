@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile README — The Profile Playbook Live Preview</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --text: #c9d1d9;
+      --accent: #58a6ff;
+      --border: #30363d;
+    }
+    body.light-mode {
+      --bg: #ffffff;
+      --card-bg: #f6f8fa;
+      --text: #24292f;
+      --accent: #0969da;
+      --border: #d0d7de;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .controls {
+      position: sticky;
+      top: 15px;
+      z-index: 100;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 10px 20px;
+      border-radius: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+    button {
+      background: #247bff;
+      color: white;
+      border: none;
+      padding: 7px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    button.secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    .readme-container {
+      max-width: 850px;
+      width: 100%;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .svg-wrapper {
+      width: 100%;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    }
+    .svg-wrapper img {
+      width: 100%;
+      display: block;
+    }
+    .meta-box {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      background: var(--card-bg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="controls">
+    <button onclick="toggleTheme()" id="themeBtn">Toggle Light / Dark Mode</button>
+    <button class="secondary" onclick="reloadImages()">Force Refresh Assets (?v=2)</button>
+    <span style="font-size: 12px; opacity: 0.8;">Playbook Spec 03 / SHIP</span>
+  </div>
+
+  <div class="readme-container">
+    <!-- Hero SVG -->
+    <div class="svg-wrapper">
+      <img id="img-hero" src="./assets/hero.svg?v=1" alt="Hero Banner" />
+    </div>
+
+    <!-- About Life SVG -->
+    <div class="svg-wrapper">
+      <img id="img-about" src="./assets/about-life.svg?v=1" alt="About Life Carousel" />
+    </div>
+
+    <!-- Tech Stack SVG -->
+    <div class="svg-wrapper">
+      <img id="img-stack" src="./assets/stack.svg?v=1" alt="Tech Stack Orbits" />
+    </div>
+
+    <!-- ID Dashboard SVG -->
+    <div class="svg-wrapper">
+      <img id="img-id" src="./assets/id-dashboard.svg?v=1" alt="ID Lanyard Dashboard" />
+    </div>
+
+    <!-- Connect SVG (Rendered via object to enable live SVG interactive links & hovers) -->
+    <div class="svg-wrapper">
+      <object id="img-connect" data="./assets/connect.svg?v=1" type="image/svg+xml" style="width:100%; display:block;"></object>
+    </div>
+
+    <div class="meta-box">
+      <h3 style="margin-top:0;">⚡ Live Verification Checklist</h3>
+      <ul>
+        <li>✅ <strong>Self-contained SVGs:</strong> No &lt;foreignObject&gt;, no network dependencies, GitHub image-proxy compliant.</li>
+        <li>✅ <strong>Color Harmony:</strong> Deep Navy (#070b16), Electric Blue (#247bff), Crimson (#ff354f).</li>
+        <li>✅ <strong>Pendulum Motion:</strong> Lanyard ID card with damped harmonic oscillation settling to gentle ambient sway.</li>
+        <li>✅ <strong>Interactive Carousel:</strong> 3 slides cycling every 4 seconds with synchronized segment progress bars.</li>
+        <li>✅ <strong>Orbital Mechanics:</strong> Multi-tiered rotating technology planetary rings around central Flutter hub.</li>
+        <li>✅ <strong>Character Integration:</strong> Transparent cutout illustrated bust &amp; right-pointing gesture guide.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('light-mode');
+    }
+    function reloadImages() {
+      const v = Date.now();
+      ['img-hero', 'img-about', 'img-stack', 'img-id', 'img-connect'].forEach(id => {
+        const el = document.getElementById(id);
+        const base = el.src.split('?')[0];
+        el.src = base + '?v=' + v;
+      });
+    }
+  </script>
+</body>
+</html>

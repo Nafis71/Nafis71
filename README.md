@@ -1,68 +1,64 @@
-<img align="center" alt ="coding" width ="100%" src="https://i.postimg.cc/1z5JsrzC/myBanner.png"></img>
+# ⚡ Nafis Hasan Tonmoy (nafis71)
 
+<div align="center">
 
+![Intro](./assets/hero.svg?v=1)
 
-# 👋 Hi, I'm Nafis Hasan Tonmoy
-<img align="right" alt ="coding" width ="450" src="https://media.tenor.com/y2JXkY1pXkwAAAAM/cat-computer.gif"></img>
-<p style="text-align: justify">
-I’m a passionate <strong>Flutter developer</strong> dedicated to building clean, scalable, and user-friendly mobile applications that deliver real value to users. With a strong foundation in <strong>Object-Oriented Programming (OOP)</strong> and a keen eye for UI/UX, I enjoy turning complex ideas into elegant, performant apps using Flutter’s powerful capabilities.
+![About](./assets/about-life.svg?v=1)
+
+![Stack](./assets/stack.svg?v=1)
+
+![ID](./assets/id-dashboard.svg?v=1)
+
+![Connect](./assets/connect.svg?v=1)
+
+</div>
+
+---
+
+### 🌐 Direct Channels & Social Links
+
+*Note: Since links directly embedded inside SVG images are sanitized by GitHub's image proxy, click below to open any profile directly:*
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nafis%20Hasan%20Tonmoy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nafis-hasan-tonmoy-86ba9a267)
+[![GitHub](https://img.shields.io/badge/GitHub-nafis71-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nafis71)
+[![LeetCode](https://img.shields.io/badge/LeetCode-kurama1314-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://www.leetcode.com/kurama1314)
+[![Facebook](https://img.shields.io/badge/Facebook-nafishasantonmoy-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/nafishasantonmoy)
+
+</div>
+
+---
+
+### 💼 Engineering Background & Highlights
+
+- 🏢 **Current Role:** Flutter Developer @ **Divergent Technologies Ltd** (On-site)
+- 🎯 **Mobile Specialization:** Cross-Platform Mobile Applications with Flutter, Clean & Feature-First Architecture, and fluid UI/UX.
+- ⚡ **State Management:** Reactive & compile-safe state orchestration with **Riverpod**, **Bloc**, and **GetX**.
+- 🌐 **Web Frontend & Backend:** Production full-stack engineering with **Node.js**, **Next.js**, **NestJS**, and **Express.js**.
+- 🗄️ **Databases & Caching:** Experienced in schema design, queries, and caching with **PostgreSQL**, **MySQL**, **Redis**, **Firebase**, and **SQLite**.
+- 🤖 **AI Prompt Engineering & Vibe Coding:** Proficient at accelerated development, rapid prototyping, and AI-augmented workflows using prompt engineering and agentic coding paradigms.
+- 🏋️ **Beyond the Terminal:** Committed to daily gym discipline, mental grit, and continuous problem-solving.
+
+---
+
+### 📊 Real-Time Developer Telemetry
+
+<div align="center">
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20Views&color=247bff&style=flat-square" alt="profile views" />
+  &nbsp;
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71&theme=darkhub&no-frame=true&margin-w=4" alt="github trophies" /></a>
 </p>
 
-<p style="text-align: justify">
-I specialize in writing <strong>maintainable, modular code</strong> following best practices like <strong>feature-first architecture</strong>, <strong>clean code principles</strong>, and <strong>responsive UI design</strong>. I'm well-versed in integrating <strong>RESTful APIs</strong>, handling <strong>state management</strong> with tools like <strong>GetX</strong>, and optimizing app performance for real-world use cases.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nafis71&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070b16&title_color=247bff&text_color=94a3b8&icon_color=ff354f" alt="nafis71 github stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nafis71&layout=compact&theme=tokyonight&hide_border=true&bg_color=070b16&title_color=247bff&text_color=94a3b8" alt="top languages" />
 </p>
-
-<p style="text-align: justify">
-My goal is to continuously grow as a developer by learning new technologies, contributing to impactful projects, and collaborating with teams to deliver high-quality mobile solutions. I take pride in being <strong>detail-oriented</strong>, <strong>efficient</strong>, and always eager to improve — whether it’s writing reusable components, solving performance bottlenecks, or simply enhancing user experience.
-</p>
-
-<p style="text-align: justify">
-I’ve worked on both <strong>personal and client projects</strong>, gaining hands-on experience in building apps from scratch, implementing <strong>authentication</strong>, <strong>local storage</strong>, <strong>real-time updates</strong>, and <strong>deploying to production</strong>. I thrive in environments that challenge me to think critically and innovate.
-</p>
-
-<br>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nafis71&label=Profile%20views&color=0e75b6&style=flat" alt="nafis71" /> </p>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nafis71" alt="nafis71" /></a> </p>
 
 [![wakatime](https://wakatime.com/badge/user/09cbff96-1d1a-4f50-a61c-b2948f79c549.svg)](https://wakatime.com/@09cbff96-1d1a-4f50-a61c-b2948f79c549)
 
-## 🚀 What I Do
-- Develop robust Flutter apps using **feature-first and layer-first architecture**
-- Craft **responsive**, **pixel-perfect** UIs with **GetX and Bloc**
-- Integrate **REST APIs**, and follow clean coding practices
-
-## 💼 Current Role
-**Flutter Developer** @ **Divergent Technologies Ltd** (Remote)
-
-## 🛠 Tech Stack
-- **Languages & Frameworks:** Java, Dart, Flutter, Kotlin (Exploring)
-- **State Management:** GetX
-- **Database:** SQLite, Firebase
-- **Tools:** Git, GitHub, VS Code, Android Studio
-- **Practices:** OOP, Clean Architecture, Feature-First Structure, Layer-First Structure
-
-## 🌱 Currently Learning
-- Performance optimization in Flutter
-- Native integrations and custom platform channels
-- Advanced architectural patterns
-
-## 🏋️ About Me
-When I’m not coding, I enjoy working out and building discipline through daily gym sessions. I’m deeply committed to both professional growth and personal improvement.
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/nafis-hasan-tonmoy-86ba9a267" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nafis-hasan-tonmoy-86ba9a267" height="30" width="40" /></a>
-<a href="https://fb.com/nafishasantonmoy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="nafishasantonmoy" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/kurama1314" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kurama1314" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nafis71&show_icons=true&locale=en&layout=compact" alt="nafis71" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nafis71&show_icons=true&locale=en" alt="nafis71" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nafis71&" alt="nafis71" /></p>
-
-<br />
+</div>

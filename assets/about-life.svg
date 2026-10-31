@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1020"/>
+      <stop offset="50%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="blue-progress" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+
+    <linearGradient id="crimson-progress" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff354f"/>
+      <stop offset="100%" stop-color="#ff758c"/>
+    </linearGradient>
+
+    <clipPath id="carousel-clip">
+      <rect x="0" y="55" width="375" height="235" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    /* Robust Opacity keyframes that fully hide non-active slides */
+    @keyframes slide1 {
+      0%, 28% { opacity: 1; pointer-events: auto; }
+      33%, 95% { opacity: 0; pointer-events: none; }
+      100% { opacity: 1; pointer-events: auto; }
+    }
+    @keyframes slide2 {
+      0%, 28% { opacity: 0; pointer-events: none; }
+      33%, 61% { opacity: 1; pointer-events: auto; }
+      66%, 100% { opacity: 0; pointer-events: none; }
+    }
+    @keyframes slide3 {
+      0%, 61% { opacity: 0; pointer-events: none; }
+      66%, 95% { opacity: 1; pointer-events: auto; }
+      100% { opacity: 0; pointer-events: none; }
+    }
+
+    /* Progress bar segment animations */
+    @keyframes progress1 {
+      0% { width: 0; }
+      28% { width: 105px; }
+      33%, 100% { width: 105px; }
+    }
+    @keyframes progress2 {
+      0%, 33% { width: 0; }
+      61% { width: 105px; }
+      66%, 100% { width: 105px; }
+    }
+    @keyframes progress3 {
+      0%, 66% { width: 0; }
+      95% { width: 105px; }
+      100% { width: 105px; }
+    }
+
+    .main-card {
+      fill: url(#about-bg);
+      stroke: url(#card-border);
+      stroke-width: 1.5;
+      rx: 24px;
+    }
+    .panel-bg {
+      fill: #090e1b;
+      stroke: #16243f;
+      stroke-width: 1;
+      rx: 16px;
+    }
+    .section-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      fill: #247bff;
+    }
+    .carousel-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      fill: #ff354f;
+    }
+    .heading {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      fill: #f1f5f9;
+    }
+    .cap-item-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13.5px;
+      font-weight: 700;
+      fill: #e2e8f0;
+    }
+    .cap-item-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11.5px;
+      fill: #8598b2;
+    }
+    .slide-body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      line-height: 1.6;
+      fill: #94a3b8;
+    }
+    .tag {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 10px;
+      font-weight: 700;
+      fill: #247bff;
+    }
+    .slide-c1 { animation: slide1 12s infinite ease-in-out; }
+    .slide-c2 { animation: slide2 12s infinite ease-in-out; }
+    .slide-c3 { animation: slide3 12s infinite ease-in-out; }
+    .prog1 { animation: progress1 12s infinite linear; }
+    .prog2 { animation: progress2 12s infinite linear; }
+    .prog3 { animation: progress3 12s infinite linear; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="356" class="main-card"/>
+
+  <!-- Left Column: Core Engineering Capabilities -->
+  <g transform="translate(35, 30)">
+    <rect x="0" y="0" width="375" height="300" class="panel-bg"/>
+    <text x="25" y="32" class="section-title">CORE CAPABILITIES</text>
+    <text x="25" y="58" class="heading">Architecture &amp; Engineering</text>
+
+    <!-- Capability 1 -->
+    <g transform="translate(25, 82)">
+      <circle cx="12" cy="12" r="10" fill="rgba(36,123,255,0.15)"/>
+      <path d="M8 12l3 3 5-5" stroke="#247bff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="32" y="11" class="cap-item-title">Clean &amp; Feature-First Architecture</text>
+      <text x="32" y="27" class="cap-item-desc">Maintainable modular separation with decoupled data, domain, &amp; presentation.</text>
+    </g>
+
+    <!-- Capability 2 -->
+    <g transform="translate(25, 142)">
+      <circle cx="12" cy="12" r="10" fill="rgba(36,123,255,0.15)"/>
+      <path d="M8 12l3 3 5-5" stroke="#247bff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="32" y="11" class="cap-item-title">Reactive State Management</text>
+      <text x="32" y="27" class="cap-item-desc">High-performance state orchestration using Riverpod, GetX &amp; Bloc patterns.</text>
+    </g>
+
+    <!-- Capability 3 -->
+    <g transform="translate(25, 202)">
+      <circle cx="12" cy="12" r="10" fill="rgba(36,123,255,0.15)"/>
+      <path d="M8 12l3 3 5-5" stroke="#247bff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="32" y="11" class="cap-item-title">Full-Stack Web &amp; Backend</text>
+      <text x="32" y="27" class="cap-item-desc">Node, Next.js, NestJS, Express, Postgres, MySQL, Redis &amp; APIs.</text>
+    </g>
+  </g>
+
+  <!-- Right Column: 3-Slide Carousel -->
+  <g transform="translate(435, 30)">
+    <rect x="0" y="0" width="375" height="300" class="panel-bg"/>
+
+    <!-- Persistent Header & Progress Indicators (NOT overlapped by slide content) -->
+    <g transform="translate(25, 20)">
+      <text x="0" y="14" class="carousel-title">PASSION &amp; LIFESTYLE / 3 SLIDES</text>
+      
+      <!-- Progress Track 1 -->
+      <g transform="translate(0, 26)">
+        <rect x="0" y="0" width="105" height="4" rx="2" fill="#16243f"/>
+        <rect x="0" y="0" width="0" height="4" rx="2" fill="url(#blue-progress)" class="prog1">
+          <!-- SMIL fallback -->
+          <animate attributeName="width" values="0;105;105;0" keyTimes="0;0.28;0.33;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <!-- Progress Track 2 -->
+      <g transform="translate(110, 26)">
+        <rect x="0" y="0" width="105" height="4" rx="2" fill="#16243f"/>
+        <rect x="0" y="0" width="0" height="4" rx="2" fill="url(#blue-progress)" class="prog2">
+          <!-- SMIL fallback -->
+          <animate attributeName="width" values="0;0;105;105;0" keyTimes="0;0.33;0.61;0.66;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <!-- Progress Track 3 -->
+      <g transform="translate(220, 26)">
+        <rect x="0" y="0" width="105" height="4" rx="2" fill="#16243f"/>
+        <rect x="0" y="0" width="0" height="4" rx="2" fill="url(#blue-progress)" class="prog3">
+          <!-- SMIL fallback -->
+          <animate attributeName="width" values="0;0;105;105" keyTimes="0;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- Slide 1: Crafting Mobile Experiences (Placed cleanly below progress bar at y=68) -->
+    <g transform="translate(25, 68)" class="slide-c1">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.28;0.33;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="76" height="20" rx="4" fill="rgba(36,123,255,0.15)"/>
+      <text x="38" y="14" text-anchor="middle" class="tag">01 / CRAFT</text>
+      <text x="0" y="44" class="heading">Pixel-Perfect Flutter UIs</text>
+      <text x="0" y="76" class="slide-body">I obsess over fluid micro-interactions, smooth</text>
+      <text x="0" y="98" class="slide-body">60fps frame rates, and responsive layouts that look</text>
+      <text x="0" y="120" class="slide-body">native and feel effortless across every screen size.</text>
+      <text x="0" y="152" font-family="'SF Mono', monospace" font-size="11" fill="#247bff">&gt; Delivering real user delight</text>
+    </g>
+
+    <!-- Slide 2: Daily Discipline & Fitness -->
+    <g transform="translate(25, 68)" class="slide-c2" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.33;0.61;0.66;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="76" height="20" rx="4" fill="rgba(255,53,79,0.15)"/>
+      <text x="38" y="14" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" font-weight="700" fill="#ff354f">02 / HABIT</text>
+      <text x="0" y="44" class="heading">Gym &amp; Physical Discipline</text>
+      <text x="0" y="76" class="slide-body">Discipline in the gym fuels stamina at the terminal.</text>
+      <text x="0" y="98" class="slide-body">Daily lifting routines reinforce consistency, resilience,</text>
+      <text x="0" y="120" class="slide-body">and compound growth in both health and software.</text>
+      <text x="0" y="152" font-family="'SF Mono', monospace" font-size="11" fill="#ff354f">&gt; Consistency beats talent</text>
+    </g>
+
+    <!-- Slide 3: AI Prompting & Vibe Coding -->
+    <g transform="translate(25, 68)" class="slide-c3" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="105" height="20" rx="4" fill="rgba(0,229,255,0.15)"/>
+      <text x="52" y="14" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" font-weight="700" fill="#00e5ff">03 / AI ACCEL</text>
+      <text x="0" y="44" class="heading">Vibe Coding &amp; AI Prompting</text>
+      <text x="0" y="76" class="slide-body">Rapid prototyping using prompt engineering, LLM</text>
+      <text x="0" y="98" class="slide-body">workflows, and agentic pairing to ship full-stack web</text>
+      <text x="0" y="120" class="slide-body">and mobile systems at 10x engineering velocity.</text>
+      <text x="0" y="152" font-family="'SF Mono', monospace" font-size="11" fill="#00e5ff">&gt; Modern augmented engineering</text>
+    </g>
+  </g>
+</svg>

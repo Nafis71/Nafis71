@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stack-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1020"/>
+      <stop offset="50%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="stack-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ff354f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="orbit-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="orbit-crimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff354f" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff8fa3" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    @keyframes orbit1 {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes orbit2 {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes orbit3 {
+      from { transform: rotate(45deg); }
+      to { transform: rotate(405deg); }
+    }
+    @keyframes counterRotate1 {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+    }
+    @keyframes counterRotate2 {
+      from { transform: rotate(-360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes counterRotate3 {
+      from { transform: rotate(-45deg); }
+      to { transform: rotate(-405deg); }
+    }
+
+    .main-card {
+      fill: url(#stack-bg);
+      stroke: url(#stack-border);
+      stroke-width: 1.5;
+      rx: 24px;
+    }
+    .header-tag {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      fill: #247bff;
+    }
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      fill: #f8fafc;
+    }
+    .orbit-ring {
+      fill: none;
+      stroke-dasharray: 4 6;
+      stroke-width: 1.5;
+    }
+    .orbit-ring1 { stroke: #247bff; opacity: 0.5; }
+    .orbit-ring2 { stroke: #ff354f; opacity: 0.4; }
+    .orbit-ring3 { stroke: #00e5ff; opacity: 0.3; }
+
+    .chip-bg {
+      fill: #0d1527;
+      stroke: #1e293b;
+      stroke-width: 1;
+      rx: 8px;
+    }
+    .chip-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #cbd5e1;
+    }
+    .category-title {
+      font-family: 'SF Mono', Consolas, monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      fill: #ff354f;
+    }
+    .orbit-node-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      fill: #ffffff;
+      text-anchor: middle;
+    }
+
+    .rot1 { animation: orbit1 25s linear infinite; transform-origin: 240px 225px; }
+    .rot2 { animation: orbit2 35s linear infinite; transform-origin: 240px 225px; }
+    .rot3 { animation: orbit3 45s linear infinite; transform-origin: 240px 225px; }
+    .crot1 { animation: counterRotate1 25s linear infinite; }
+    .crot2 { animation: counterRotate2 35s linear infinite; }
+    .crot3 { animation: counterRotate3 45s linear infinite; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="416" class="main-card"/>
+
+  <!-- Section Header -->
+  <g transform="translate(45, 40)">
+    <text x="0" y="0" class="header-tag">TECH ARSENAL</text>
+    <text x="0" y="26" class="title">Orbits &amp; Ecosystem</text>
+  </g>
+
+  <!-- Left: Orbital System (Center at 240, 245) -->
+  <g transform="translate(0, 20)">
+    <!-- Central Hub: FLUTTER CORE -->
+    <circle cx="240" cy="225" r="55" fill="url(#center-glow)"/>
+    <circle cx="240" cy="225" r="40" fill="#0b1730" stroke="#247bff" stroke-width="2"/>
+    <!-- Flutter stylized icon path -->
+    <path d="M228 225 l16 -16 h14 l-16 16 l16 16 h-14 z M238 225 l10 -10 h12 l-10 10 l10 10 h-12 z" fill="#00e5ff"/>
+    <text x="240" y="248" class="orbit-node-text" fill="#00e5ff">FLUTTER</text>
+
+    <!-- Ring 1 (Radius 85) -->
+    <circle cx="240" cy="225" r="85" class="orbit-ring orbit-ring1"/>
+    <!-- Animated Orbits Ring 1 -->
+    <g class="rot1">
+      <!-- Node: Dart -->
+      <g transform="translate(325, 225)">
+        <g class="crot1" transform-origin="0 0">
+          <circle cx="0" cy="0" r="18" fill="#0f1f3d" stroke="#247bff" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#247bff">Dart</text>
+        </g>
+      </g>
+      <!-- Node: GetX -->
+      <g transform="translate(155, 225)">
+        <g class="crot1" transform-origin="0 0">
+          <circle cx="0" cy="0" r="18" fill="#0f1f3d" stroke="#247bff" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#247bff">GetX</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Ring 2 (Radius 130) -->
+    <circle cx="240" cy="225" r="130" class="orbit-ring orbit-ring2"/>
+    <!-- Animated Orbits Ring 2 -->
+    <g class="rot2">
+      <!-- Node: Bloc -->
+      <g transform="translate(240, 95)">
+        <g class="crot2" transform-origin="0 0">
+          <circle cx="0" cy="0" r="20" fill="#2b111a" stroke="#ff354f" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#ff758c">Bloc</text>
+        </g>
+      </g>
+      <!-- Node: Java -->
+      <g transform="translate(240, 355)">
+        <g class="crot2" transform-origin="0 0">
+          <circle cx="0" cy="0" r="20" fill="#2b111a" stroke="#ff354f" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#ff758c">Java</text>
+        </g>
+      </g>
+      <!-- Node: Firebase -->
+      <g transform="translate(370, 225)">
+        <g class="crot2" transform-origin="0 0">
+          <circle cx="0" cy="0" r="20" fill="#2b111a" stroke="#ff354f" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#ff758c">Firebase</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Ring 3 (Radius 175) -->
+    <circle cx="240" cy="225" r="175" class="orbit-ring orbit-ring3"/>
+    <!-- Animated Orbits Ring 3 -->
+    <g class="rot3">
+      <!-- Node: SQLite -->
+      <g transform="translate(116, 101)">
+        <g class="crot3" transform-origin="0 0">
+          <circle cx="0" cy="0" r="20" fill="#091b29" stroke="#00e5ff" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#00e5ff">SQLite</text>
+        </g>
+      </g>
+      <!-- Node: Kotlin -->
+      <g transform="translate(364, 349)">
+        <g class="crot3" transform-origin="0 0">
+          <circle cx="0" cy="0" r="20" fill="#091b29" stroke="#00e5ff" stroke-width="1.5"/>
+          <text x="0" y="4" class="orbit-node-text" fill="#00e5ff">Kotlin</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right: Categorized Stack Chips -->
+  <g transform="translate(480, 85)">
+    <!-- Languages & Frameworks -->
+    <text x="0" y="15" class="category-title">&gt; LANGUAGES &amp; FRAMEWORKS</text>
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="70" height="30" class="chip-bg" stroke="#247bff"/>
+      <text x="35" y="19" text-anchor="middle" class="chip-text">Flutter</text>
+
+      <rect x="78" y="0" width="60" height="30" class="chip-bg" stroke="#247bff"/>
+      <text x="108" y="19" text-anchor="middle" class="chip-text">Dart</text>
+
+      <rect x="146" y="0" width="60" height="30" class="chip-bg"/>
+      <text x="176" y="19" text-anchor="middle" class="chip-text">Java</text>
+
+      <rect x="214" y="0" width="65" height="30" class="chip-bg"/>
+      <text x="246" y="19" text-anchor="middle" class="chip-text">Kotlin</text>
+
+      <rect x="287" y="0" width="45" height="30" class="chip-bg"/>
+      <text x="309" y="19" text-anchor="middle" class="chip-text">C++</text>
+    </g>
+
+    <!-- State & Architecture -->
+    <text x="0" y="90" class="category-title">&gt; STATE &amp; ARCHITECTURE</text>
+    <g transform="translate(0, 103)">
+      <rect x="0" y="0" width="75" height="30" class="chip-bg" stroke="#00e5ff"/>
+      <text x="37" y="19" text-anchor="middle" class="chip-text">Riverpod</text>
+
+      <rect x="82" y="0" width="58" height="30" class="chip-bg" stroke="#ff354f"/>
+      <text x="111" y="19" text-anchor="middle" class="chip-text">Bloc</text>
+
+      <rect x="146" y="0" width="58" height="30" class="chip-bg" stroke="#247bff"/>
+      <text x="175" y="19" text-anchor="middle" class="chip-text">GetX</text>
+
+      <rect x="210" y="0" width="85" height="30" class="chip-bg"/>
+      <text x="252" y="19" text-anchor="middle" class="chip-text">Clean Arch</text>
+
+      <rect x="301" y="0" width="46" height="30" class="chip-bg"/>
+      <text x="324" y="19" text-anchor="middle" class="chip-text">OOP</text>
+    </g>
+
+    <!-- Backend & Web Stack -->
+    <text x="0" y="165" class="category-title">&gt; WEB &amp; BACKEND ECOSYSTEM</text>
+    <g transform="translate(0, 178)">
+      <rect x="0" y="0" width="60" height="30" class="chip-bg" stroke="#247bff"/>
+      <text x="30" y="19" text-anchor="middle" class="chip-text">Node</text>
+
+      <rect x="68" y="0" width="68" height="30" class="chip-bg" stroke="#247bff"/>
+      <text x="102" y="19" text-anchor="middle" class="chip-text">Next.js</text>
+
+      <rect x="144" y="0" width="65" height="30" class="chip-bg" stroke="#ff354f"/>
+      <text x="176" y="19" text-anchor="middle" class="chip-text">NestJS</text>
+
+      <rect x="217" y="0" width="70" height="30" class="chip-bg"/>
+      <text x="252" y="19" text-anchor="middle" class="chip-text">Express</text>
+
+      <rect x="295" y="0" width="50" height="30" class="chip-bg" stroke="#00e5ff"/>
+      <text x="320" y="19" text-anchor="middle" class="chip-text">AI / Vibe</text>
+    </g>
+
+    <!-- Databases & Caching -->
+    <text x="0" y="240" class="category-title">&gt; DATABASES &amp; CACHING</text>
+    <g transform="translate(0, 253)">
+      <rect x="0" y="0" width="72" height="30" class="chip-bg" stroke="#00e5ff"/>
+      <text x="36" y="19" text-anchor="middle" class="chip-text">Postgres</text>
+
+      <rect x="80" y="0" width="62" height="30" class="chip-bg"/>
+      <text x="111" y="19" text-anchor="middle" class="chip-text">MySQL</text>
+
+      <rect x="150" y="0" width="58" height="30" class="chip-bg" stroke="#ff354f"/>
+      <text x="179" y="19" text-anchor="middle" class="chip-text">Redis</text>
+
+      <rect x="216" y="0" width="72" height="30" class="chip-bg"/>
+      <text x="252" y="19" text-anchor="middle" class="chip-text">Firebase</text>
+
+      <rect x="296" y="0" width="50" height="30" class="chip-bg"/>
+      <text x="321" y="19" text-anchor="middle" class="chip-text">SQLite</text>
+    </g>
+  </g>
+</svg>
